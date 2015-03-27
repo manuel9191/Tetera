@@ -63,22 +63,22 @@ void keyboard(unsigned char key, int x, int y)
     {
 	case '1':
 	b=1;
-			ponermaterial();
-			break;
+	ponermaterial();
+	break;
 	case '2':
 	b=2;
-			ponermaterial();
-			break;
-    case '3' :
-    b=3;
-            ponermaterial();
+	ponermaterial();
+	break;
+	case '3' :
+    	b=3;
+        ponermaterial();
         break;
-    case '4' :
-    b=4;
-          ponermaterial();
+    	case '4' :
+    	b=4;
+        ponermaterial();
         break;
-    case '5' :
-    b=5;
+    	case '5' :
+    	b=5;
         ponermaterial();
         break;
     }
